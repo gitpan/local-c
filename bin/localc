@@ -1,0 +1,52 @@
+#!/usr/bin/env perl
+# PODNAME: localc
+# ABSTRACT: Displaying the required environment variables
+
+use local::c '--print-env',@ARGV;
+
+
+
+=pod
+
+=head1 NAME
+
+localc - Displaying the required environment variables
+
+=head1 VERSION
+
+version 0.001
+
+=head1 SYNOPSIS
+
+  eval $( localc )          # defaults to ~/localc
+
+or
+
+  eval $( localc ~/foobar ) # other path
+
+=head1 DESCRIPTION
+
+B<HIGHLY EXPERIMENTAL - IF YOU WANNA USE IT, CONTACT US ON IRC, _PLEASE_>
+
+=head1 SUPPORT
+
+IRC:
+
+    Join #local-c on irc.perl.org.
+
+=head1 AUTHOR
+
+Torsten Raudssus <torsten@raudss.us>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by the local::c "AUTHOR" as listed above.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
+
+
+__END__
+

@@ -1,0 +1,12 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+bin/localc
+dist.ini
+lib/local/c.pm
+t/00-load.t
+t/release-pod-syntax.t
